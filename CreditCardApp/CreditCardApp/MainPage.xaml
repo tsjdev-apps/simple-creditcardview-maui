@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:CreditCardApp.Views"
+             x:Class="CreditCardApp.MainPage">
+    
+    <ScrollView>
+        <VerticalStackLayout>
+            <views:CreditCardView CardNumber="371449635398431"                                  
+                                  ExpirationDate="2024-12-01"
+                                  CardValidationCode="123"/>
+            <views:CreditCardView CardNumber="38520000023237"
+                                  ExpirationDate="2025-12-01"
+                                  CardValidationCode="456"/>
+            <views:CreditCardView CardNumber="6011000990139424"
+                                  ExpirationDate="2026-12-01"
+                                  CardValidationCode="789"/>
+            <views:CreditCardView CardNumber="3566002020360505"
+                                  ExpirationDate="2027-12-01"
+                                  CardValidationCode="321"/>
+            <views:CreditCardView CardNumber="5555555555554444"
+                                  ExpirationDate="2028-12-01"
+                                  CardValidationCode="654"/>
+            <views:CreditCardView CardNumber="4012888888881881"
+                                  ExpirationDate="2028-12-01"
+                                  CardValidationCode="987"/>
+            <views:CreditCardView />
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

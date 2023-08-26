@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardApp", "CreditCardApp\CreditCardApp.csproj", "{FA5EA3C7-6E20-4134-AB0D-5AA3D7F2A427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardApp", "src\CreditCardApp\CreditCardApp.csproj", "{FA5EA3C7-6E20-4134-AB0D-5AA3D7F2A427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
